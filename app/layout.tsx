@@ -30,13 +30,13 @@ export default function RootLayout({
         {/* Background image */}
         <div
           aria-hidden
-          className="fixed inset-0 -z-20 bg-[url('/green-smoothie-empty-notepad.jpg')] bg-cover bg-center bg-fixed"
+          className="fixed inset-0 -z-20 bg-[url('/green-smoothie-empty-notepad.jpg')] bg-contain bg-center bg-fixed"
         />
 
         {/* Soft overlay for readability */}
         <div
           aria-hidden
-          className='fixed inset-0 -z-10 bg-white/70 dark:bg-black/50 backdrop-blur-[2px]'
+          className='fixed inset-0 -z-10 bg-white/70 dark:bg-black/50 backdrop-blur-[1px]'
         />
 
         {/* Page content */}

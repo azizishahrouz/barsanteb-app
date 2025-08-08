@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+// import icon from '../../../../../../public/barsan-logo.svg';
+import icon from '../../../assets/hero (2).png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,12 +27,16 @@ const Header = () => {
           {/* Logo */}
           <div className='flex-shrink-0'>
             <Link href='/' className='flex items-center'>
-              <div className='w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center'>
-                <span className='text-white font-bold text-xl'>ب</span>
+              <div className=' bg-green- rounded-lg flex items-center justify-center'>
+                {/* <span className='text-white font-bold text-xl'>ب</span> */}
+                <Image
+                  src={icon}
+                  width={80}
+                  height={80}
+                  alt='Picture of the author'
+                ></Image>
               </div>
-              <span className='mr-3 text-xl font-bold text-gray-900'>
-                بارسان طب
-              </span>
+              <span className='mr-3 text-xl font-bold text-gray-900'></span>
             </Link>
           </div>
 
