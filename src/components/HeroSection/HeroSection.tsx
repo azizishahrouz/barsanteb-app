@@ -14,6 +14,9 @@ const HeroSection = () => {
     <section className='relative py-8 lg:py-12 overflow-hidden'>
       {/* Enhanced Background with Nature Pattern */}
       <div className='absolute inset-0 bg-gradient-to-br from-green-50 via-emerald-50 to-green-100'>
+        {/* Background Image */}
+        <div className='absolute inset-0 bg-[url("/green-smoothie-empty-notepad.jpg")] bg-contain bg-center bg-no-repeat opacity-30'></div>
+        
         {/* Nature Pattern Background */}
         {/* <div className='absolute inset-0 bg-[url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232BA84A' fill-opacity='0.08'%3E%3Cpath d='M40 40c0-22.091 17.909-40 40-40v80c-22.091 0-40-17.909-40-40zm0 0c0 22.091-17.909 40-40 40V0c22.091 0 40 17.909 40 40z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")] opacity-70'></div> */}
         
@@ -147,7 +150,7 @@ const HeroSection = () => {
                     </div>
                     
                     {/* Enhanced Professional Modal for Doctors */}
-                    {openDoctors && (
+                    {/* {openDoctors && (
                       <div className='absolute inset-0 z-40'>
                         <div className='absolute inset-0 bg-black/60 backdrop-blur-sm rounded-2xl'></div>
                         <div className='absolute inset-0 flex items-center justify-center p-4'>
@@ -172,7 +175,7 @@ const HeroSection = () => {
                           </div>
                         </div>
                       </div>
-                    )}
+                    )} */}
                   </div>
 
                   {/* فروشگاه - Professional Card with Background Image and Enhanced Sublinks */}
@@ -296,7 +299,7 @@ const HeroSection = () => {
                     </div>
                     
                     {/* Enhanced Professional Modal for AI */}
-                    {openAI && (
+                    {/* {openAI && (
                       <div className='absolute inset-0 z-40'>
                         <div className='absolute inset-0 bg-black/60 backdrop-blur-sm rounded-2xl'></div>
                         <div className='absolute inset-0 flex items-center justify-center p-4'>
@@ -321,7 +324,7 @@ const HeroSection = () => {
                           </div>
                         </div>
                       </div>
-                    )}
+                    )} */}
                   </div>
 
                   {/* تست سلامتی - Professional Card with Background Image and Enhanced Sublinks */}
