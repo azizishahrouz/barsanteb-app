@@ -28,16 +28,41 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-screen`}
         className={`antialiased relative min-h-screen`}
       >
-        {/* Background image */}
+        {/* Professional Natural Background for Medical Website */}
         <div
           aria-hidden
-          className="fixed inset-0 -z-20 bg-[url('/green-smoothie-empty-notepad.jpg')] bg-contain bg-center bg-fixed"
+          className="fixed inset-0 -z-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50"
+        />
+
+        {/* Subtle Nature Pattern */}
+        <div
+          aria-hidden
+          className="fixed inset-0 -z-15 bg-[url('data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2306B6D4' fill-opacity='0.03'%3E%3Cpath d='M50 50c0-27.614 22.386-50 50-50v100c-27.614 0-50-22.386-50-50zm0 0c0 27.614-22.386 50-50 50V0c27.614 0 50 22.386 50 50z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-80"
+        />
+
+        {/* Professional Floating Elements */}
+        <div
+          aria-hidden
+          className="fixed top-32 right-32 w-40 h-40 bg-gradient-to-br from-emerald-300/15 to-teal-300/15 rounded-full blur-3xl animate-pulse"
+        />
+        <div
+          aria-hidden
+          className="fixed bottom-32 left-32 w-32 h-32 bg-gradient-to-br from-teal-300/15 to-cyan-300/15 rounded-full blur-3xl animate-pulse"
+        />
+        <div
+          aria-hidden
+          className="fixed top-1/2 left-1/4 w-20 h-20 bg-gradient-to-br from-cyan-300/20 to-emerald-300/20 rounded-full blur-2xl animate-pulse"
+        />
+        <div
+          aria-hidden
+          className="fixed top-1/3 right-1/3 w-24 h-24 bg-gradient-to-br from-teal-300/10 to-cyan-300/10 rounded-full blur-2xl animate-pulse"
+          style={{animationDelay: '1s'}}
         />
 
         {/* Soft overlay for readability */}
         <div
           aria-hidden
-          className='fixed inset-0 -z-10 bg-white/70 dark:bg-black/50 backdrop-blur-[1px]'
+          className='fixed inset-0 -z-10 bg-white/40 dark:bg-black/30 backdrop-blur-[0.5px]'
         />
 
         {/* Page content */}
