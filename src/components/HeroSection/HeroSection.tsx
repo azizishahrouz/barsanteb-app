@@ -264,11 +264,12 @@ const HeroSection = () => {
             <div className='absolute -top-8 -right-8 w-40 h-40 bg-gradient-to-br from-emerald-400/20 to-green-400/20 rounded-full blur-3xl animate-pulse'></div>
             <div className='absolute -bottom-8 -left-8 w-32 h-32 bg-gradient-to-br from-green-400/20 to-emerald-400/20 rounded-full blur-3xl animate-pulse'></div>
             <div className='absolute top-1/2 right-1/4 w-20 h-20 bg-gradient-to-br from-green-300/25 to-emerald-300/25 rounded-full blur-2xl animate-pulse'></div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+                     </div>
+         </div>
+       </div>
+       {/* Blog Section */}
+     </section>
+   );
+ };
 
 export default HeroSection;

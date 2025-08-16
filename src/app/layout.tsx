@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 // import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { Providers } from './providers';
 
 // const geistSans = Geist({
 //   variable: '--font-geist-sans',
@@ -66,7 +67,11 @@ export default function RootLayout({
         />
 
         {/* Page content */}
-        <div className='relative z-10 min-h-screen'>{children}</div>
+        <div className='relative z-10 min-h-screen'>
+          <Providers>
+            {children}
+          </Providers>
+        </div>
       </body>
     </html>
   );
